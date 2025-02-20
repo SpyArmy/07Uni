@@ -27,7 +27,7 @@
     
 <div id="navWrapper">
     <nav id="navlinks">
-        <a href="#top">&#10005</a>
+        <a href="#top">&#10005;</a>
         <ul>
             <li><a href="#">Students</a></li>
             <li class="active"><a href="#">Apply</a></li>
@@ -46,8 +46,7 @@
         <p>Are you ready to take the next step towards achieving your academic and career dreams? At Horizons University, we're dedicated to providing an exceptional education tailored to help you succeed in today's dynamic world. With our innovative programs, expert faculty, and a vibrant community of learners, you'll be empowered to reach new heights.</p>
 
         <form method="GET" action="thanks.html"  class="my-form" autocomplete="on">
-            <feildset>
-                <legend>Contact Information</legend>
+                <h2>Contact Information</h2>
                 <label>First name: <input type="text" name="fname" autocomplete="given-name" required title="First name here"></label>
                 <label>Last name  <input type="text" name="fname" autocomplete="family-name" required title="Last name here"></label>
                 <label>Email  <input type="email" name="email" autocomplete="email" required title="Your Email Here"></label>
@@ -55,14 +54,14 @@
                 <label>Address  <input type="text" name="address" autocomplete="street-address" title="Your Address Here"></label>
                 <label>City  <input type="text" name="city" autocomplete="address-level2" title="City Here"></label>
                 <label>State <input type="text" name="state" autocomplete="address-level1" title="State Here"></label>
-                <label>Zip Code <input type="text" name="zipcode" autocomplete="postal-code" title="Zip Code Here"></label></feildset>
+                <label>Zip Code <input type="text" name="zipcode" autocomplete="postal-code" title="Zip Code Here"></label>
 
-                <legend>Communcation Preferences</legend>
-                <label id="checkbox"><input type="checkbox" name="Send text"> Text </label>
-                <label id="checkbox"><input type="checkbox" name="Send Phone Call"> Call </label>
-                <label id="checkbox"><input type="checkbox" name="Send Email"> Email </label>
+                <h2>Communcation Preferences</h2>
+                <label id="checkbox1"><input type="checkbox" name="Send text"> Text </label>
+                <label id="checkbox2"><input type="checkbox" name="Send Phone Call"> Call </label>
+                <label id="checkbox3"><input type="checkbox" name="Send Email"> Email </label>
 
-                <legend>Previous School Information</legend>
+                <h2>Previous School Information</h2>
                 <label>School Type
                     <select name="School type">
                         <option>Please Select</option>
@@ -77,18 +76,17 @@
                     <input type="date" name="school-date">
                 </label>
 
-                <legend>Education Completed</legend>
-                <label id="checkbox"><input type="checkbox" name="HS"> High School </label>
-                <label id="checkbox"><input type="checkbox" name="GED"> GED </label>
-                <label id="checkbox"><input type="checkbox" name="AS"> Two Years Associates Degree </label>
+                <h2>Education Completed</h2>
+                <label id="checkbox4"><input type="checkbox" name="HS"> High School </label>
+                <label id="checkbox5"><input type="checkbox" name="GED"> GED </label>
+                <label id="checkbox6"><input type="checkbox" name="AS"> Two Years Associates Degree </label>
                 
-                <legend>Account Information</legend>
+                <h2>Account Information</h2>
                 <label>UserName (6 or more)<input type="text" required minlength="6" title="Please Enter UserName longer than 6."></label>
                 <label>UserName (5-9 letters or numbers)<input type="password" required pattern="[A-Za-z0-9]{5,9}" title="5-9 letters or numbers Please"></label>
                 
 
                 <input id="button"  type="submit" value="Join us">
-            </feildset>
         </form>
 
     </main>

@@ -409,7 +409,32 @@ form input {
   border: 1px solid #F25D07;
   border-radius: 3px;
 }
-form #checkbox {
+form #checkbox1 {
+  display: flow-root;
+  padding-bottom: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+form #checkbox2 {
+  display: flow-root;
+  padding-bottom: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+form #checkbox3 {
+  display: flow-root;
+  padding-bottom: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+form #checkbox4 {
+  display: flow-root;
+  padding-bottom: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+form #checkbox5 {
+  display: flow-root;
+  padding-bottom: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+form #checkbox6 {
   display: flow-root;
   padding-bottom: 0.1rem;
   margin-bottom: 0.1rem;
