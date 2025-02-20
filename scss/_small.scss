@@ -81,7 +81,7 @@ nav {
         text-align: right;
     }
     li.active a {
-        color: white;
+        color: $greyColor;
         background-color: $primaryColor;
     }
 } // end of nav
