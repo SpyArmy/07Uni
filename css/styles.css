@@ -380,7 +380,7 @@ nav li a {
   text-align: right;
 }
 nav li.active a {
-  color: white;
+  color: black;
   background-color: #F25D07;
 }
 
@@ -500,7 +500,7 @@ footer a {
   }
   nav li a:hover {
     background-color: #F25D07;
-    color: white;
+    color: black;
   }
 }
 @media only screen and (min-width: 64rem) {
