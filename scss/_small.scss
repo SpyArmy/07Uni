@@ -81,8 +81,8 @@ nav {
         text-align: right;
     }
     li.active a {
-        color: $primaryColor;
-        background-color: #333;
+        color: white;
+        background-color: $primaryColor;
     }
 } // end of nav
 
@@ -146,7 +146,7 @@ form {
         margin-bottom: .1rem;
     }
     #button {
-        color: white;
+        color: $greyColor;
         background-color: $primaryColor;
         margin: 20px;
         width: 325px;
