@@ -337,6 +337,10 @@ header span {
   font-weight: 300;
   color: #F25D07;
 }
+header img {
+  width: 40px;
+  height: auto;
+}
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
 div#navWrapper {
